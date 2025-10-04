@@ -178,7 +178,7 @@ class StudentIDCard extends StatelessWidget {
                     ),
                     clipBehavior: Clip.hardEdge,
                     child: Image.asset(
-                      'assets/profile.png',
+                      'assets/profile.jpg',
                       fit: BoxFit.cover,
                       errorBuilder: (context, error, stackTrace) {
                         return Container(
